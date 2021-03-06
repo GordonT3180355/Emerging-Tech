@@ -1,1 +1,23 @@
+void setup() {
+  size (500, 500);
+  background (#EDD7A4, 20);
+  noStroke();
+  fill (#EDD7A4,100);
+  ellipse (250, 250, 600, 600);
+  fill (#ED9595,20);
+  ellipse (250, 250, 500, 500);
+  fill (#E53177, 20);
+  ellipse (250, 250, 400, 400);
+  fill (#B22925, 20);
+  ellipse (250, 250, 300, 300);
+  fill (#C82127, 20);
+  ellipse (250, 250, 200, 200);
+  
+}
 
+void draw() {
+
+   strokeWeight (10);
+    fill(#4351A3);
+  ellipse (mouseX, mouseY, 10, 10);
+}
